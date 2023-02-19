@@ -66,7 +66,13 @@ console.log(segundoSymbol.valueOf()) // Symbol(30)
 const desc = null
 console.log(typeof desc) // object
 
-
+/*
+ NaN vs undefined vs null
+ . NaN (Not a number) : indica que el vlaor de un objeto no es un numerico.
+ . undefined : Significa que el objeto no tiene ningún valor, por la tanto indefinifo.
+   Esto ocurre cuando crea una variable y lo le asigna un valor.
+ . null : significa que el objeto esta vacío y no apunta a ninguna dirección de memoria.
+*/
 
 
 

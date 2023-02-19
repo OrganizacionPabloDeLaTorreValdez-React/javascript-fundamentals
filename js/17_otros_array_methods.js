@@ -26,7 +26,7 @@ const numeros = [10, 20, 30]
 // tecnologias.forEach((tech, index) => console.log(index, tech))
 
 // map - Crear un nuevo arreglo
-const resultado = tecnologias.map(tech => tech)
+const resultado = tecnologias.map(tech => tech.concat('01'))
 
 console.log(resultado)
 
